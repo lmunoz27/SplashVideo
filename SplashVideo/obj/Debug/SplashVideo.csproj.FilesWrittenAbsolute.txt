@@ -1,0 +1,5 @@
+/Users/luismunoz/Projects/SplashVideo/SplashVideo/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/luismunoz/Projects/SplashVideo/SplashVideo/bin/Debug/SplashVideo.dll.mdb
+/Users/luismunoz/Projects/SplashVideo/SplashVideo/bin/Debug/SplashVideo.dll
+/Users/luismunoz/Projects/SplashVideo/SplashVideo/obj/Debug/SplashVideo.dll
+/Users/luismunoz/Projects/SplashVideo/SplashVideo/obj/Debug/SplashVideo.dll.mdb

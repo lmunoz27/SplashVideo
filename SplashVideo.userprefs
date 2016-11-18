@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D04A67F5-AB74-444B-A5DD-9BE939969840}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="Droid/MainActivity.cs" Line="39" Column="18" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="2" Column="149" />
+      <File FileName="Droid/Resources/values/styles.axml" Line="8" Column="1" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="Droid/Activity1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SplashVideo" expanded="True">
+            <Node name="SplashVideo.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SplashVideo.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SplashVideo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6A7E53DE-6392-47AC-A287-3C2002674C98" />
+</Properties>
