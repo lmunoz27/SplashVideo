@@ -1,0 +1,11 @@
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/bin/iPhoneSimulator/Debug/SplashVideo.iOS.exe.mdb
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/bin/iPhoneSimulator/Debug/SplashVideo.iOS.exe
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/SplashVideo.iOS.exe
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/obj/iPhoneSimulator/Debug/SplashVideo.iOS.exe.mdb
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/bin/iPhoneSimulator/Debug/SplashVideo.dll
+/Users/luismunoz/XamarinProjects/SplashVideo/iOS/bin/iPhoneSimulator/Debug/SplashVideo.dll.mdb

@@ -1,4 +1,8 @@
-﻿using Foundation;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using AVKit;
+using Foundation;
 using UIKit;
 
 namespace SplashVideo.iOS
@@ -6,9 +10,11 @@ namespace SplashVideo.iOS
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
 	// User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
 	[Register("AppDelegate")]
-	public class AppDelegate : UIApplicationDelegate
+	public partial class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
+		//UIWindow window;
+		//AVPlayerViewController viewController;
 
 		public override UIWindow Window
 		{
@@ -16,11 +22,17 @@ namespace SplashVideo.iOS
 			set;
 		}
 
-		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
+		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
 
+			//window = new UIWindow(UIScreen.MainScreen.Bounds);
+
+			//viewController = new AVPlayerViewController();
+			//window.RootViewController = viewController;
+			//window.MakeKeyAndVisible();
+			 
 			return true;
 		}
 

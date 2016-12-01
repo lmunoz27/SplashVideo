@@ -2979,6 +2979,7 @@ containing a value of this type.
         public static int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f070097;
         public static int Base_Widget_Design_AppBarLayout=0x7f070003;
         public static int Base_Widget_Design_TabLayout=0x7f070004;
+        public static int MyTheme=0x7f070165;
         public static int Platform_AppCompat=0x7f070033;
         public static int Platform_AppCompat_Light=0x7f070034;
         public static int Platform_ThemeOverlay_AppCompat=0x7f070098;

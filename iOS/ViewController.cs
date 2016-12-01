@@ -1,12 +1,21 @@
 ﻿using System;
 
+using Foundation;
 using UIKit;
+using AVFoundation;
+using System.Threading;
 
 namespace SplashVideo.iOS
 {
 	public partial class ViewController : UIViewController
 	{
-		int count = 1;
+
+		AVPlayer _player;
+		AVPlayerLayer _playerLayer;
+		AVAsset _asset;
+		AVPlayerItem _playerItem;
+
+		
 
 		public ViewController(IntPtr handle) : base(handle)
 		{
@@ -17,13 +26,30 @@ namespace SplashVideo.iOS
 			base.ViewDidLoad();
 
 			// Perform any additional setup after loading the view, typically from a nib.
-			Button.AccessibilityIdentifier = "myButton";
-			Button.TouchUpInside += delegate
+			_asset = AVAsset.FromUrl (NSUrl.FromFilename("splashCaja.m4v"));
+			_playerItem = new AVPlayerItem(_asset);
+
+			_player = new AVPlayer(_playerItem);
+			_playerLayer = AVPlayerLayer.FromPlayer(_player);
+			_playerLayer.Frame = View.Frame;
+
+			View.Layer.AddSublayer(_playerLayer);
+
+			_player.Play();
+
+			Timer tm = new Timer(new TimerCallback((state) =>
 			{
-				var title = string.Format("{0} clicks!", count++);
-				Button.SetTitle(title, UIControlState.Normal);
-			};
+				this.InvokeOnMainThread((() =>
+				{
+					UIStoryboard board = UIStoryboard.FromName("Main", null);
+					UIViewController ctrl = (UIViewController)board.InstantiateViewController("LoginViewControllers");
+					ctrl.ModalTransitionStyle = UIModalTransitionStyle.CrossDissolve;
+					this.PresentViewController(ctrl, true, null);
+				}));
+			}), null, 5000, Timeout.Infinite);
 		}
+
+
 
 		public override void DidReceiveMemoryWarning()
 		{
